@@ -5,26 +5,50 @@ import { list } from 'postcss';
 const BlogList = () => { 
     const blogs = [ 
         { 
-        "image": "https://picsum.photos/id/1011/300/200",
-        "title": "Understanding React Components",
-        "description": "Learn the basics of React components, the building blocks of any React application.",
+
+        image: "https://picsum.photos/id/1011/300/200",
+        title: "Understanding React Components",
+        description: "Learn the basics of React components, the building blocks of any React application.",
         link: "#"
         }, 
         { 
-        "image": "https://picsum.photos/id/1011/300/200",
-        "title": "Understanding React Components",
-        "description": "Learn the basics of React components, the building blocks of any React application.",
+        image: "https://picsum.photos/id/57/367/267",
+        title: "Understanding React Components",
+        description: "Learn the basics of React components, the building blocks of any React application.",
         link: "#"
 
 
         }, 
         { 
-        "image": "https://picsum.photos/id/1011/300/200",
-        "title": "Understanding React Components",
-        "description": "Learn the basics of React components, the building blocks of any React application.",
+        image: "https://picsum.photos/id/4/367/267",
+        title: "Understanding React Components",
+        description: "Learn the basics of React components, the building blocks of any React application.",
         link: "#"
 
-        }, // Add more blog objects as needed 
+        },
+        { 
+            image: "https://picsum.photos/id/29/367/267",
+            title: "Understanding React Components",
+            description: "Learn the basics of React components, the building blocks of any React application.",
+            link: "#"
+    
+        },
+
+        { 
+            image: "https://picsum.photos/536/354",
+            title: "Understanding React Components",
+            description: "Learn the basics of React components, the building blocks of any React application.",
+            link: "#"
+    
+        },
+
+        { 
+            image: "https://picsum.photos/id/49/367/267",
+            title: "Understanding React Components",
+            description: "Learn the basics of React components, the building blocks of any React application.",
+            link: "#"
+    
+        },
         ]; 
         
         return (

@@ -1,9 +1,9 @@
 import React from "react";
 
-const BlogCard = ({Image, title, description, link }) => {
+const BlogCard = ({image, title, description, link }) => {
     return (
         <div className="max-w-sm bg-neutral-300 border border-white rounded-lg shadow-md overflow-hidden">
-            <img src={Image} alt={title} className="w-full h-48 object-cover" />
+            <img src={image} alt={title} className="w-full h-48 object-cover" />
             <div className="p-5">
                 <h5 className="text-2xl font-bold mb-2">{title}</h5>
                 <p className="text-gray-700 mb-4">{description}</p>
